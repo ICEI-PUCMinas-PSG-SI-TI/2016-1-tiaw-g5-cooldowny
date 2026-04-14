@@ -1,17 +1,20 @@
 # Informações do Projeto
-`TÍTULO DO PROJETO`  
+`CoolDowny`  
 
 Trabalho Interdisciplinar - Aplicacões Web
 
-`CURSO`
+`ADS/SI`
 
-`SEMESTRE`
+`Semestre 1`
 
 ## Participantes
 
 Os membros do grupo são: 
-- Fulano da Silva
-- Ciclano Albuquerque
+- Igor Leal Soares
+- Bianca Garcia
+- Rafael Lage Batista
+- Jhuan Neto Santos Pires
+- Pedro Arthur Silva Senra
 
 > Inclua a lista dos membros da equipe com seus nomes completos.
 
