@@ -62,13 +62,13 @@ As ferramentas empregadas no projeto são:
 
 > Ferramentas utilizadas:
 > 
-> Visual Studio Code
+Visual Studio Code
 > 
-> Figma 
+Figma 
 > 
-> Discord
+Discord
 >
-> Github 
+Github 
 
 
 ## Links Úteis
