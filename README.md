@@ -98,3 +98,14 @@ História 6 - Eu como: Jogador competitivo que quer melhorar meu desempenho. Pre
 ## Wireframe com Fluxo do Usuário
 ![WireframeFluxoUsuário](docs/images/WIREFRAME CONEXÕES - GRUPO 5.pdf)
 
+## Ferramentas Utilizadas
+Visual Studio Code
+
+Figma
+
+Discord
+
+Github
+
+## Organização da equipe e divisão de papéis
+
