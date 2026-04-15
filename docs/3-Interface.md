@@ -34,3 +34,7 @@
 > **Links Úteis**:
 > - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
 > - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
+>
+>  Wireframes com User Flow:
+>
+> ![WireframeComUserFlow](docs/images/WIREFRAME CONEXÕES-GRUPO5.pdf)
