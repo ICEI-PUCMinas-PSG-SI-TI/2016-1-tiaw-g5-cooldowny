@@ -69,7 +69,7 @@ O público-alvo do site são as pessoas que já não tem controle e estão vicia
 ![Matriz]()
 
 ## Mapa de Stakeholder
-![MapaStakeholder]()
+![MapaStakeholder](docs/images/StakeHolder (1).pdf)
 
 ## Personas
 Persona 1:
