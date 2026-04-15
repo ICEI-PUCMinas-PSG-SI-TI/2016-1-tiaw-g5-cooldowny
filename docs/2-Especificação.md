@@ -30,14 +30,14 @@ que aceitem alunos estrangeiros.
 > Lembre-se que você deve ser enumerar e descrever precisamente e
 > personalizada todos os clientes ideais que sua solução almeja.
 >
-> Persona 1:
-> ![Persona1](docs/images/persona_lucas_rocha_formatado.pdf(3)(1).pdf)
+Persona 1:
+![Persona1](docs/images/persona_lucas_rocha_formatado.pdf(3)(1).pdf)
 >
-> Persona 2:
-> ![Persona2](docs/images/persona111(2).pdf.pdf)
+Persona 2:
+![Persona2](docs/images/persona111(2).pdf.pdf)
 >
-> Persona 3:
-> ![Persona3](docs/images/persona222(1).pdf)
+Persona 3:
+![Persona3](docs/images/persona222(1).pdf)
 
 ## Histórias de Usuários
 
@@ -59,33 +59,33 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 > - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
 > - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
 >
-> História 1
-> Eu como: Jogador de LOL
+História 1 -
+Eu como: Jogador de LOL
 Preciso de: Diminuir o tempo que fico jogando
 Para/Porque: Quero investir meu tempo em outras coisas
 >
-> História 2
-> Eu como: Streamer de jogos
+História 2 - 
+Eu como: Streamer de jogos
 Preciso de: Ver quanto tempo fico em cada jogo
 Para/Porque: Quero ter controle sobre minha rotina
 >
-> História 3
-> Eu como: Jogador preocupado com o bem-estar físico.
+História 3 -
+Eu como: Jogador preocupado com o bem-estar físico.
 Preciso de: Receber um alerta a cada 1 hora de jogo contínuo.
 Para/Porque: Quero lembrar de levantar, me alongar e beber água para evitar o sedentarismo.
 >
-> História 4
-> Eu como: Trabalhador remoto.
+História 4 -
+Eu como: Trabalhador remoto.
 Preciso de: Bloquear o acesso a jogos durante o horário comercial.
 Para/Porque: Preciso manter o foco total nas minhas entregas profissionais e evitar distrações.
 >
-> História 5
-> Eu como: Estudante que precisa melhorar a produtividade.
+História 5 -
+Eu como: Estudante que precisa melhorar a produtividade.
 Preciso de: Definir um limite diário de tempo para jogos.
 Para/Porque: Quero garantir que minhas tarefas e estudos sejam concluídos antes de gastar tempo jogando.
 >
-> História 6
-> Eu como: Jogador competitivo que quer melhorar meu desempenho.
+História 6 -
+Eu como: Jogador competitivo que quer melhorar meu desempenho.
 Preciso de: Receber um relatório com o tempo total jogado e pausas feitas durante o dia.
 Para/Porque: Quero analisar minha rotina e ajustar meus horários para jogar com mais qualidade e menos cansaço mental.
 
@@ -127,16 +127,16 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 > todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 >
 > Requisitos Funcionais:
-> 1. O site deve ter um sistema de login/entrar - ALTA
-> 2. O site deve ter um sistema de cronômetro - MÉDIA
-> 3. O site deve ter um sistema de tarefas diárias - MÉDIA
-> 4. O site deve ter um sistema de relatórios para o usuário se informar - ALTA
-> 5. O site deve ter um painel com informações e atividades do usuário - ALTA
+1. O site deve ter um sistema de login/entrar - ALTA
+2. O site deve ter um sistema de cronômetro - MÉDIA
+3. O site deve ter um sistema de tarefas diárias - MÉDIA
+4. O site deve ter um sistema de relatórios para o usuário se informar - ALTA
+5. O site deve ter um painel com informações e atividades do usuário - ALTA
 >
 > Requisitos Não Funcionais:
-> 1. O site deve ser responsivo - ALTA
-> 2. Deve haver segurança - ALTA
-> 3. Deve ser fácil de mexer - ALTA
+1. O site deve ser responsivo - ALTA
+2. Deve haver segurança - ALTA
+3. Deve ser fácil de mexer - ALTA
 
 ## Restrições
 
