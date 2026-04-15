@@ -19,7 +19,7 @@
 - Testes: AlunaZ
 
 > A divisão de papéis do grupo ficou assim:
-- 
+
 - Desenvolvimento: Igor Leal Soares
 - 
 - Desenvolvimento: Rafael Large Batista
@@ -63,7 +63,9 @@ As ferramentas empregadas no projeto são:
 > Ferramentas utilizadas:
 > 
 > Editor de código: Visual Studio Code
+> 
 > Figma para wireframes
+> 
 > Discord para reuniões
 
 
