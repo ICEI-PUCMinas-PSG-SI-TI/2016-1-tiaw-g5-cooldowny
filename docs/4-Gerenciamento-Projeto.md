@@ -21,13 +21,13 @@
 > A divisão de papéis do grupo ficou assim:
 
 - Desenvolvimento: Igor Leal Soares
-- 
+  
 - Desenvolvimento: Rafael Large Batista
-- 
+  
 - Design/UX: Bianca Garcia
-- 
+  
 - Design e Desenvolvimento: Pedro Arthur Silva Senra
-- 
+  
 - Pesquisa: Jhuan Neto Santos Pires
 
 ## Quadro de tarefas
