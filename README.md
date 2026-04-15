@@ -52,3 +52,6 @@ Aprenda Markdown e use-o para documentar o projeto
 > [Sintaxe básica de gravação e formatação no GitHub](https://guides.github.com/features/mastering-markdown/)
 
 > [Suporte Github](https://help.github.com/pt/github/writing-on-github/getting-started-with-writing-and-formatting-on-github)
+
+## Problema
+Não é uma surpresa para todos que durante a pandemia, devido ao pouco contato que a população tinha, problemas como o isolamento social ou a dificuldade em socializar começaram a surgir. Junto deles, também veio o vício em jogos online, já que muitas pessoas presas dentro de suas casas, começaram a se afundar e ficaram presos até hoje nesse tipo de jogo.
