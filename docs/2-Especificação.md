@@ -34,7 +34,7 @@ que aceitem alunos estrangeiros.
 > ![Persona1](docs/images/persona_lucas_rocha_formatado.pdf(3)(1).pdf)
 >
 > Persona 2:
-> ![Persona2](/images/persona111(2).pdf)
+> ![Persona2](docs/images/persona111(2).pdf.pdf)
 >
 > Persona 3:
 > ![Persona3](docs/images/persona222(1).pdf)
