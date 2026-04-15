@@ -31,7 +31,7 @@ que aceitem alunos estrangeiros.
 > personalizada todos os clientes ideais que sua solução almeja.
 >
 > Persona 1:
-> ![Persona1](/images/persona_lucas_rocha_formatado.pdf (3))
+> ![Persona1](docs/images/persona_lucas_rocha_formatado.pdf(3)(1).pdf)
 >
 > Persona 2:
 > ![Persona2](/images/persona111(2).pdf)
