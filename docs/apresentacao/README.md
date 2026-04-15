@@ -19,7 +19,7 @@
 
 Coloque aqui os slides da apresentação
 
-![Slides]()
+![Slides](docs/apresentacao/CoolDowny_-_16-bit_Edition.pdf)
 
 ## Vídeo
 
