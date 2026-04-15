@@ -126,14 +126,14 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 > característica alvo da sua solução. Além disso, certifique-se de que
 > todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 >
-> Requisitos Funcionais:
+Requisitos Funcionais:
 1. O site deve ter um sistema de login/entrar - ALTA
 2. O site deve ter um sistema de cronômetro - MÉDIA
 3. O site deve ter um sistema de tarefas diárias - MÉDIA
 4. O site deve ter um sistema de relatórios para o usuário se informar - ALTA
 5. O site deve ter um painel com informações e atividades do usuário - ALTA
 >
-> Requisitos Não Funcionais:
+Requisitos Não Funcionais:
 1. O site deve ser responsivo - ALTA
 2. Deve haver segurança - ALTA
 3. Deve ser fácil de mexer - ALTA
