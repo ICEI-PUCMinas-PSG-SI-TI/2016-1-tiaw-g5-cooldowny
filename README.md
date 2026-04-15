@@ -76,3 +76,14 @@ Persona 3:
 ![Persona3](docs/images/persona222(1).pdf)
 
 ## Histórias de Usuários
+História 1 - Eu como: Jogador de LOL Preciso de: Diminuir o tempo que fico jogando Para/Porque: Quero investir meu tempo em outras coisas
+
+História 2 - Eu como: Streamer de jogos Preciso de: Ver quanto tempo fico em cada jogo Para/Porque: Quero ter controle sobre minha rotina
+
+História 3 - Eu como: Jogador preocupado com o bem-estar físico. Preciso de: Receber um alerta a cada 1 hora de jogo contínuo. Para/Porque: Quero lembrar de levantar, me alongar e beber água para evitar o sedentarismo.
+
+História 4 - Eu como: Trabalhador remoto. Preciso de: Bloquear o acesso a jogos durante o horário comercial. Para/Porque: Preciso manter o foco total nas minhas entregas profissionais e evitar distrações.
+
+História 5 - Eu como: Estudante que precisa melhorar a produtividade. Preciso de: Definir um limite diário de tempo para jogos. Para/Porque: Quero garantir que minhas tarefas e estudos sejam concluídos antes de gastar tempo jogando.
+
+História 6 - Eu como: Jogador competitivo que quer melhorar meu desempenho. Preciso de: Receber um relatório com o tempo total jogado e pausas feitas durante o dia. Para/Porque: Quero analisar minha rotina e ajustar meus horários para jogar com mais qualidade e menos cansaço mental.
