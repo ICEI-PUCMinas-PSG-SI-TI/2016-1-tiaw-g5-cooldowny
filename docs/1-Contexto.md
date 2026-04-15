@@ -16,6 +16,7 @@
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
 > - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
 > - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+> - 
 > Não é uma surpresa para todos que durante a pandemia, devido ao pouco contato que a população tinha, problemas como o isolamento social ou a dificuldade em socializar começaram a surgir. Junto deles, também veio o vício em jogos online, já que muitas pessoas presas dentro de suas casas, começaram a se afundar e ficaram presos até hoje nesse tipo de jogo.
 
 ## Objetivos
@@ -28,6 +29,7 @@
 > 
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+> - 
 > Dessa forma, para resolver esse problema dos vícios em jogos online, o objetivo que foi pensado, foi o de criar um site capaz de ajudar as pessoas a melhorarem e largarem ou controlar esse problema. Dois objetivos específicos que podem ser citados que o site pretende resolver é o de ajudar pessoas a controlarem o tempo que ficam no jogo e também ajudar as pessoas com esse problema a socializarem e sair mais de casa para aproveitar a vida da melhor maneira.
 
 ## Justificativa
@@ -43,6 +45,7 @@
 >
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+> - 
 > É de extrema importância trabalhar com esta aplicação porque não é saudável para essas pessoas ficarem presas às telas, isso limita e estraga a vida delas completamente, por isso precisam de ajuda para isso. As razões para a escolha dos 2 objetivos específicos foi porque parece ser a melhor forma de atacar o problema central, que é o isolamento.
 
 ## Público-Alvo
@@ -61,6 +64,7 @@
 > **Links Úteis**:
 > - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
 > - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+> - 
 > O público-alvo do site são as pessoas que já não tem controle e estão viciadas nos jogos online, jovens que perdem sua juventude e passam a vida em frente às telas prejudicando seu desenvolvimento como pessoa ou até pessoas mais velhas com sites de apostas, que acabam apostando sem parar e compulsivamente, podendo até sofre de vários prejuízos para si mesmo.
 
  
