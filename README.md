@@ -108,4 +108,13 @@ Discord
 Github
 
 ## Organização da equipe e divisão de papéis
+Desenvolvimento: Igor Leal Soares
+
+Desenvolvimento: Rafael Large Batista
+
+Design/UX: Bianca Garcia
+
+Design e Desenvolvimento: Pedro Arthur Silva Senra
+
+Pesquisa: Jhuan Neto Santos Pires
 
