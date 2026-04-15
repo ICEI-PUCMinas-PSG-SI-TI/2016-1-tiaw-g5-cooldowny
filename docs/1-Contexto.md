@@ -17,7 +17,7 @@
 > - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
 > - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 > - 
-> Não é uma surpresa para todos que durante a pandemia, devido ao pouco contato que a população tinha, problemas como o isolamento social ou a dificuldade em socializar começaram a surgir. Junto deles, também veio o vício em jogos online, já que muitas pessoas presas dentro de suas casas, começaram a se afundar e ficaram presos até hoje nesse tipo de jogo.
+Não é uma surpresa para todos que durante a pandemia, devido ao pouco contato que a população tinha, problemas como o isolamento social ou a dificuldade em socializar começaram a surgir. Junto deles, também veio o vício em jogos online, já que muitas pessoas presas dentro de suas casas, começaram a se afundar e ficaram presos até hoje nesse tipo de jogo.
 
 ## Objetivos
 
