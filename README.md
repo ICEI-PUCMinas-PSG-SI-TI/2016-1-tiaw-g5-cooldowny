@@ -87,3 +87,10 @@ História 4 - Eu como: Trabalhador remoto. Preciso de: Bloquear o acesso a jogos
 História 5 - Eu como: Estudante que precisa melhorar a produtividade. Preciso de: Definir um limite diário de tempo para jogos. Para/Porque: Quero garantir que minhas tarefas e estudos sejam concluídos antes de gastar tempo jogando.
 
 História 6 - Eu como: Jogador competitivo que quer melhorar meu desempenho. Preciso de: Receber um relatório com o tempo total jogado e pausas feitas durante o dia. Para/Porque: Quero analisar minha rotina e ajustar meus horários para jogar com mais qualidade e menos cansaço mental.
+
+## Proposta de Valor
+![PropostaValor1]()
+
+![PropostaValor2]()
+
+![PropostaValor3]()
