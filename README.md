@@ -95,6 +95,12 @@ História 6 - Eu como: Jogador competitivo que quer melhorar meu desempenho. Pre
 
 ![PropostaValor3](docs/images/MapaDaPropostaDeValorLadoEsquerdoPersona03.pdf)
 
+![PropostaValorLadoDireito1](docs/images/Empatia 06 - Análise - Mapa da Proposta de Valor - Persona01 (1).pdf)
+
+![PropostaValorLadoDireito2](docs/images/Empatia 06 - Análise - Mapa da Proposta de Valor - Persona02 (1).pdf)
+
+![PropostaValorLadoDireito3](docs/images/Empatia 06 - Análise - Mapa da Proposta de Valor - Persona03 (1).pdf)
+
 ## Wireframe com Fluxo do Usuário
 ![WireframeFluxoUsuário](docs/images/WIREFRAME CONEXÕES - GRUPO 5.pdf)
 
