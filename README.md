@@ -64,3 +64,5 @@ Dessa forma, para resolver esse problema dos vícios em jogos online, o objetivo
 
 ## Público-Alvo
 O público-alvo do site são as pessoas que já não tem controle e estão viciadas nos jogos online, jovens que perdem sua juventude e passam a vida em frente às telas prejudicando seu desenvolvimento como pessoa ou até pessoas mais velhas com sites de apostas, que acabam apostando sem parar e compulsivamente, podendo até sofre de vários prejuízos para si mesmo.
+
+## Personas
