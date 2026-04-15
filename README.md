@@ -89,8 +89,12 @@ História 5 - Eu como: Estudante que precisa melhorar a produtividade. Preciso d
 História 6 - Eu como: Jogador competitivo que quer melhorar meu desempenho. Preciso de: Receber um relatório com o tempo total jogado e pausas feitas durante o dia. Para/Porque: Quero analisar minha rotina e ajustar meus horários para jogar com mais qualidade e menos cansaço mental.
 
 ## Proposta de Valor
-![PropostaValor1]()
+![PropostaValor1](docs/images/MapaDaPropostaDeValorLadoEsquerdoPersona01.pdf)
 
-![PropostaValor2]()
+![PropostaValor2](docs/images/MapaDaPropostaDeValorLadoEsquerdoPersona02.pdf)
 
-![PropostaValor3]()
+![PropostaValor3](docs/images/MapaDaPropostaDeValorLadoEsquerdoPersona03.pdf)
+
+## Wireframe com Fluxo do Usuário
+![WireframeFluxoUsuário]()
+
