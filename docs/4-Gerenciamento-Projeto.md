@@ -18,6 +18,18 @@
 - Desenvolvedor _back-end_: AlunoK
 - Testes: AlunaZ
 
+> A divisão de papéis do grupo ficou assim:
+- 
+- Desenvolvimento: Igor Leal Soares
+- 
+- Desenvolvimento: Rafael Large Batista
+- 
+- Design/UX: Bianca Garcia
+- 
+- Design e Desenvolvimento: Pedro Arthur Silva Senra
+- 
+- Pesquisa: Jhuan Neto Santos Pires
+
 ## Quadro de tarefas
 
 > Apresente a divisão de tarefas entre os membros do grupo e o acompanhamento da execução, conforme exemplo abaixo.
@@ -47,6 +59,12 @@ As ferramentas empregadas no projeto são:
 - Ferramentas de diagramação.
 - Frameworks 
 - Outras ferramentas externas
+
+> Ferramentas utilizadas:
+> 
+> Editor de código: Visual Studio Code
+> Figma para wireframes
+> Discord para reuniões
 
 
 ## Links Úteis
