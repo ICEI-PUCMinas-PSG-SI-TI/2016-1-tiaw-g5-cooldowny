@@ -19,6 +19,8 @@
 
 Coloque aqui os slides da apresentação
 
+![Slides]()
+
 ## Vídeo
 
 No caso de apresentação gravada, insira aqui o link do vídeo de apresentação.
