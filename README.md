@@ -55,3 +55,8 @@ Aprenda Markdown e use-o para documentar o projeto
 
 ## Problema
 Não é uma surpresa para todos que durante a pandemia, devido ao pouco contato que a população tinha, problemas como o isolamento social ou a dificuldade em socializar começaram a surgir. Junto deles, também veio o vício em jogos online, já que muitas pessoas presas dentro de suas casas, começaram a se afundar e ficaram presos até hoje nesse tipo de jogo.
+
+## Objetivo do projeto
+Dessa forma, para resolver esse problema dos vícios em jogos online, o objetivo que foi pensado, foi o de criar um site capaz de ajudar as pessoas a melhorarem e largarem ou controlar esse problema. Dois objetivos específicos que podem ser citados que o site pretende resolver é o de ajudar pessoas a controlarem o tempo que ficam no jogo e também ajudar as pessoas com esse problema a socializarem e sair mais de casa para aproveitar a vida da melhor maneira.
+
+## Justificativa
