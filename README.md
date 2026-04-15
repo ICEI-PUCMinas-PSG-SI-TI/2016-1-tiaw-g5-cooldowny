@@ -60,3 +60,4 @@ Não é uma surpresa para todos que durante a pandemia, devido ao pouco contato 
 Dessa forma, para resolver esse problema dos vícios em jogos online, o objetivo que foi pensado, foi o de criar um site capaz de ajudar as pessoas a melhorarem e largarem ou controlar esse problema. Dois objetivos específicos que podem ser citados que o site pretende resolver é o de ajudar pessoas a controlarem o tempo que ficam no jogo e também ajudar as pessoas com esse problema a socializarem e sair mais de casa para aproveitar a vida da melhor maneira.
 
 ## Justificativa
+É de extrema importância trabalhar com esta aplicação porque não é saudável para essas pessoas ficarem presas às telas, isso limita e estraga a vida delas completamente, por isso precisam de ajuda para isso. As razões para a escolha dos 2 objetivos específicos foi porque parece ser a melhor forma de atacar o problema central, que é o isolamento.
