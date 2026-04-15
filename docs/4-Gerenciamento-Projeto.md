@@ -62,11 +62,13 @@ As ferramentas empregadas no projeto são:
 
 > Ferramentas utilizadas:
 > 
-> Editor de código: Visual Studio Code
+> Visual Studio Code
 > 
-> Figma para wireframes
+> Figma 
 > 
-> Discord para reuniões
+> Discord
+>
+> Github 
 
 
 ## Links Úteis
