@@ -37,7 +37,7 @@ que aceitem alunos estrangeiros.
 > ![Persona2](/images/persona111(2).pdf)
 >
 > Persona 3:
-> ![Persona3](/images/persona222(1))
+> ![Persona3](docs/images/persona222(1).pdf)
 
 ## Histórias de Usuários
 
