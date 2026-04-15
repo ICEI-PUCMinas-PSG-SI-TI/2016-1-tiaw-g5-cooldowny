@@ -29,6 +29,15 @@ que aceitem alunos estrangeiros.
 >
 > Lembre-se que você deve ser enumerar e descrever precisamente e
 > personalizada todos os clientes ideais que sua solução almeja.
+>
+> Persona 1:
+> ![Persona1](/images/persona_lucas_rocha_formatado.pdf (3))
+>
+> Persona 2:
+> ![Persona2](/images/persona111(2).pdf)
+>
+> Persona 3:
+> ![Persona3](/images/persona222(1))
 
 ## Histórias de Usuários
 
