@@ -96,5 +96,5 @@ História 6 - Eu como: Jogador competitivo que quer melhorar meu desempenho. Pre
 ![PropostaValor3](docs/images/MapaDaPropostaDeValorLadoEsquerdoPersona03.pdf)
 
 ## Wireframe com Fluxo do Usuário
-![WireframeFluxoUsuário]()
+![WireframeFluxoUsuário](docs/images/WIREFRAME CONEXÕES - GRUPO 5.pdf)
 
