@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoolDowny</title>
+    <link rel="stylesheet" href="tarefas.css">
+</head>
+<body>
+    <main>
+        <div class="intro">
+            <h1>Tarefas do Dia</h1>
+            <p>Complete suas responsabilidades antes de jogar</p>
+        </div>
+
+        <section class="estilo-secao" id="progresso-tarefas">
+            <div class="info-progresso">
+                <h2>Progresso do dia</h2>
+                <span id="tarefas-realizadas">0/0</span>
+            </div>
+            <div class="barra">
+                <div id="barra-progresso"></div>
+            </div>
+        </section>
+
+        <section class="estilo-secao" id="adicionar-tarefas">
+            <form action="">
+                <h2>
+                    <label for="input-tarefas">Nova tarefa</label>
+                </h2>
+                <input type="text" id="input-tarefas" name="tarefa" placeholder="O que precisa fazer?" required>
+                <button type="submit" id="btn-adicionar">+ Adicionar</button>
+            </form>
+        </section>
+
+        <section class="estilo-secao">
+            <div id="mensagem-nenhuma-tarefa">
+                <p>Nenhuma tarefa encontrada</p>
+            </div>
+
+            <div id="lista-tarefas"></div>
+        </section>
+    </main>
+
+    <script src="tarefas.js"></script>
+</body>
+</html>
