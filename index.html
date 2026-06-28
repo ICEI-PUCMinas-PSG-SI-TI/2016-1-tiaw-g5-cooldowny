@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoolDowny</title>
+    <style>
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            background-color: #0f0d0b; 
+            color: #ffffff; 
+            padding: 20px; 
+            margin: 0;
+        }
+        
+        .container { 
+            max-width: 600px; 
+            margin: 40px auto; 
+        }
+
+        h1 {
+            font-family: Georgia, serif;
+            color: #ffffff;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .bloco { 
+            background-color: #181512; 
+            padding: 30px; 
+            border-radius: 8px; 
+            border: 1px solid #332d26;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+        }
+        
+        h2 { 
+            font-family: Georgia, serif;
+            color: #cca010; 
+            margin-top: 0;
+            margin-bottom: 25px;
+        }
+        
+        .campo { 
+            margin-bottom: 20px; 
+        }
+        
+        label { 
+            display: block; 
+            margin-bottom: 8px; 
+            font-weight: bold; 
+            color: #ffffff;
+        }
+        
+        input, select { 
+            padding: 12px; 
+            width: 100%; 
+            box-sizing: border-box; 
+            background-color: #211d19; 
+            color: #e0e0e0; 
+            border: 1px solid #332d26; 
+            border-radius: 4px;
+            font-family: 'Segoe UI', sans-serif;
+            font-size: 1rem;
+        }
+
+        input::placeholder {
+            color: #5a5247;
+        }
+        
+        /* Área do Cronômetro */
+        .cronometro-box { 
+            text-align: center; 
+            margin-top: 30px; 
+            padding-top: 20px;
+            border-top: 1px solid #332d26;
+        }
+        
+        .display { 
+            font-size: 4rem; 
+            font-family: monospace; 
+            color: #cca010; 
+            margin-bottom: 20px; 
+            font-weight: bold;
+        }
+
+        /* Alerta visual para quando o tempo for excedido */
+        .display.excedido {
+            color: #ff4a4a;
+        }
+        
+        button { 
+            font-family: 'Segoe UI', sans-serif;
+            padding: 12px 24px; 
+            margin: 5px; 
+            cursor: pointer; 
+            font-weight: bold; 
+            border-radius: 4px; 
+            border: none; 
+            font-size: 1rem;
+            transition: background-color 0.2s ease, transform 0.1s ease;
+        }
+        
+        .btn-play { 
+            background-color: #a19584; 
+            color: #0f0d0b; 
+        }
+        .btn-play:hover {
+            background-color: #bcaba4;
+        }
+
+        .btn-pause { 
+            background-color: #5a5247; 
+            color: #ffffff; 
+        }
+        .btn-pause:hover {
+            background-color: #72685b;
+        }
+
+        .btn-salvar { 
+            background-color: #cca010; 
+            color: #0f0d0b; 
+        }
+        .btn-salvar:hover { 
+            background-color: #e6b312; 
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Cronômetro CoolDowny</h1>
+
+    <div class="bloco">
+        <h2>Nova Jogatina</h2>
+        
+        <form onsubmit="salvarSessao(event)">
+            <div class="campo">
+                <label>Nome do Jogo:</label>
+                <input type="text" id="input-jogo" required placeholder="Ex: Minecraft, Valorant">
+            </div>
+
+            <div class="campo">
+                <label>Humor Antes de Jogar:</label>
+                <select id="select-humor" required>
+                    <option value="" style="color: #5a5247;">Escolha...</option>
+                    <option value="Feliz">Feliz / Relaxado</option>
+                    <option value="Ansioso">Ansioso</option>
+                    <option value="Cansado">Cansado</option>
+                    <option value="Estressado">Estressado</option>
+                </select>
+            </div>
+
+            <div class="campo">
+                <label>Definir Limite de Tempo (em minutos):</label>
+                <input type="number" id="input-limite" min="1" placeholder="Ex: 5, 30, 60">
+            </div>
+
+            <div class="cronometro-box">
+                <div class="display" id="display-tempo">00:00:00</div>
+                
+                <button type="button" class="btn-play" onclick="iniciarCronometro()">Iniciar</button>
+                <button type="button" class="btn-pause" onclick="pausarCronometro()">Pausar</button>
+                <button type="submit" class="btn-salvar">Finalizar e Salvar</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script>
+    const URL_API = 'http://localhost:3000/sessoes';
+    let segundosContados = 0;
+    let segundosExcedidos = 0; // Nova variável para armazenar o tempo extra
+    let intervaloDoTimer = null;
+    let alertaDisparado = false; // Evita que o áudio e o alert travem o navegador em loop
+
+    /* LÓGICA DO CRONÔMETRO */
+    function iniciarCronometro() {
+        if (intervaloDoTimer !== null) return; 
+
+        intervaloDoTimer = setInterval(function() {
+            segundosContados++;
+            
+            const limiteMinutos = document.getElementById('input-limite').value;
+            
+            if (limiteMinutos) {
+                const limiteSegundos = limiteMinutos * 60;
+                
+                // Se passou do limite
+                if (segundosContados > limiteSegundos) {
+                    segundosExcedidos++;
+                    document.getElementById('display-tempo').classList.add('excedido');
+                    
+                    // Dispara o alerta apenas na primeira vez que ultrapassar
+                    if (!alertaDisparado) {
+                        alertaDisparado = true;
+                        
+                        // Som de alerta
+                        let audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+                        let osc = audioCtx.createOscillator();
+                        osc.connect(audioCtx.destination);
+                        osc.start();
+                        osc.stop(0.5); 
+
+                        // O alert é opcional aqui, pois ele pausa a execução do JS enquanto aberto.
+                        // Se preferir que o tempo continue contando de fundo mesmo com o alert na tela,
+                        // o ideal seria usar um modal customizado, mas mantive o alert para seguir seu padrão:
+                        setTimeout(() => { 
+                            alert("Alerta: Você atingiu o limite de tempo estipulado para a jogatina!"); 
+                        }, 10);
+                    }
+                }
+            }
+
+            document.getElementById('display-tempo').innerText = converterSegundosParaTexto(segundosContados);
+        }, 1000);
+    }
+
+    function pausarCronometro() {
+        clearInterval(intervaloDoTimer);
+        intervaloDoTimer = null;
+    }
+
+    function converterSegundosParaTexto(totalSegundos) {
+        let horas = Math.floor(totalSegundos / 3600);
+        let minutos = Math.floor((totalSegundos % 3600) / 60);
+        let segundos = totalSegundos % 60;
+
+        if (horas < 10) horas = "0" + horas;
+        if (minutos < 10) minutos = "0" + minutos; // Corrigido o bug do 'minutes'
+        if (segundos < 10) segundos = "0" + segundos;
+
+        return horas + ":" + minutos + ":" + segundos;
+    }
+
+    /* ENVIO PARA O SERVIDOR */
+    function salvarSessao(evento) {
+        evento.preventDefault(); 
+        pausarCronometro();
+
+        const nomeJogo = document.getElementById('input-jogo').value;
+        const humorAntes = document.getElementById('select-humor').value;
+
+        // O objeto agora envia também o tempo excedido
+        const novaJogatina = {
+            jogo: nomeJogo,
+            humor: humorAntes,
+            tempo: segundosContados,
+            tempoExcedido: segundosExcedidos // Adicionado aqui
+        };
+
+        fetch(URL_API, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(novaJogatina)
+        })
+        .then(function() {
+            alert("Sucesso! Jogatina salva no servidor.");
+            
+            // Resetando todas as variáveis de controle
+            segundosContados = 0;
+            segundosExcedidos = 0;
+            alertaDisparado = false;
+            
+            document.getElementById('display-tempo').classList.remove('excedido');
+            document.getElementById('display-tempo').innerText = "00:00:00";
+            document.getElementById('input-jogo').value = "";
+            document.getElementById('select-humor').value = "";
+            document.getElementById('input-limite').value = "";
+        })
+        .catch(function(erro) {
+            console.error("Erro ao salvar:", erro);
+            alert("Não foi possível conectar ao JSONServer. Verifique se ele está rodando.");
+        });
+    }
+</script>
+</body>
+</html>
