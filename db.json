@@ -1,3 +1,40 @@
 {
-  "tarefas": []
+  "tarefas": [],
+  "semana": [ 
+    {
+      "id": 1, 
+      "diaDaSemana": "Domingo", 
+      "tarefasRealizadas": 0
+    }, 
+    { 
+      "id": 2, 
+      "diaDaSemana": "Segunda", 
+      "tarefasRealizadas": 6 
+    }, 
+    { 
+      "id": 3, 
+      "diaDaSemana": "Terça", 
+      "tarefasRealizadas": 1 
+    }, 
+    { 
+      "id": 4, 
+      "diaDaSemana": "Quarta", 
+      "tarefasRealizadas": 3 
+    }, 
+    { 
+      "id": 5, 
+      "diaDaSemana": "Quinta", 
+      "tarefasRealizadas": 2 
+    }, 
+    {   
+      "id": 6, 
+      "diaDaSemana": "Sexta", 
+      "tarefasRealizadas": 4 
+    }, 
+    { 
+      "id": 7, 
+      "diaDaSemana": "Sábado", 
+      "tarefasRealizadas": 9 
+    } 
+  ]
 }
