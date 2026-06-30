@@ -155,9 +155,9 @@ Descrição: Página que contém informações, como por exemplo, tempo de jogo 
 Estrutura de dados:
 {
   "usuarioLogado": {
-    "id":
+    "id": "VLHxeqy5LeU",
     "nome": "Pedro",
-    "email": "pedro@gmail.com
+    "email": "pedro@gmail.com"
   },
   "sessoesHoje": [
     {
@@ -167,7 +167,7 @@ Estrutura de dados:
       "tempo": 10800,
       "tempoExcedido": 0,
       "data": "2026-06-30",
-      "usuarioId": ""
+      "usuarioId": "VLHxeqy5LeU"
     }
   ],
   "tarefas": [
@@ -222,9 +222,9 @@ Descrição: Página que contém informações igual ao painel do dia, porém co
 Estrutura de dados:
 {
   "usuarioLogado": {
-    "id":
+    "id": "VLHxeqy5LeU",
     "nome": "Pedro",
-    "email": "pedro@gmail.com
+    "email": "pedro@gmail.com"
   },
   "sessoesHoje": [
     {
@@ -234,7 +234,7 @@ Estrutura de dados:
       "tempo": 10800,
       "tempoExcedido": 0,
       "data": "2026-06-30",
-      "usuarioId": ""
+      "usuarioId": "VLHxeqy5LeU"
     }
   ],
   "tarefas": [
