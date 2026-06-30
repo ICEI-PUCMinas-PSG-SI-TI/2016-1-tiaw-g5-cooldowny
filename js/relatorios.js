@@ -29,7 +29,6 @@ async function carregarRelatorios() {
 
     const ultimos7 = getUltimos7Dias();
 
-    // --- Sessões (cronômetro) do usuário ---
     let sessoes = [];
     try {
         const res = await fetch(`${URL_SESSOES}?usuarioId=${usuario.id}`);
@@ -38,7 +37,6 @@ async function carregarRelatorios() {
         console.warn('Erro ao buscar sessões (json-server está rodando?):', e);
     }
 
-    // --- Tarefas do usuário ---
     let tarefas = [];
     try {
         const res2 = await fetch(`${URL_TAREFAS}?usuarioId=${usuario.id}`);
@@ -47,7 +45,6 @@ async function carregarRelatorios() {
         console.warn('Erro ao buscar tarefas (json-server está rodando?):', e);
     }
 
-    // ----- Cards -----
     const totalSegundos = sessoes.reduce((acc, s) => acc + (s.tempo || 0), 0);
     document.getElementById('totalJogado').textContent = formatarHoras(totalSegundos);
 
@@ -63,7 +60,6 @@ async function carregarRelatorios() {
     const excessos = sessoes.filter(s => (s.tempoExcedido || 0) > 0).length;
     document.getElementById('excessosTotal').textContent = excessos;
 
-    // ----- Gráfico: Tempo de Jogo - Semana (em horas) -----
     const labelsSemana = ultimos7.map(data => {
         const diaSemana = new Date(data + 'T00:00:00').getDay();
         return DIAS_SEMANA[diaSemana];
@@ -78,14 +74,12 @@ async function carregarRelatorios() {
 
     renderizarGraficoBarras('graficoTempoJogo', labelsSemana, tempoPorDia, '#f59e0b', 'Horas jogadas');
 
-    // ----- Gráfico: Tarefas Concluídas - Semana -----
     const tarefasPorDia = ultimos7.map(data => {
         return tarefas.filter(t => t.data === data && t.concluida).length;
     });
 
     renderizarGraficoLinha('graficoTarefas', labelsSemana, tarefasPorDia, '#f59e0b', 'Tarefas concluídas');
 
-    // ----- Jogos Mais Jogados -----
     renderizarJogosMaisJogados(sessoes);
 }
 
@@ -156,7 +150,6 @@ function renderizarJogosMaisJogados(sessoes) {
         return;
     }
 
-    // Agrupa tempo total por jogo
     const totaisPorJogo = {};
     sessoes.forEach(s => {
         const nome = s.jogo || 'Sem nome';

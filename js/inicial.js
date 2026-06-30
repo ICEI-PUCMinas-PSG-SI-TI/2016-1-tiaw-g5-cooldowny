@@ -1,6 +1,5 @@
 lucide.createIcons();
 
-// Carousel (só existe na página inicio.html)
 const items = document.querySelectorAll('.carousel-item');
 const dots = document.querySelectorAll('.dot');
 const prevBtn = document.getElementById('prevBtn');
@@ -36,7 +35,6 @@ if (items.length > 0) {
     updateCarousel(currentIndex);
 }
 
-// Sidebar: mostrar nome do usuário logado
 function atualizarUsuarioSidebar() {
     const usuarioLogado = JSON.parse(localStorage.getItem('usuarioLogado'));
     const loginLink = document.getElementById('loginLink');

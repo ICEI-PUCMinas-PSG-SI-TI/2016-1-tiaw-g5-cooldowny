@@ -18,7 +18,6 @@ async function carregarDadosPainel() {
 
     const hoje = new Date().toISOString().split('T')[0];
 
-    // --- Sessões do usuário logado, de hoje ---
     let sessoesHoje = [];
     try {
         const res = await fetch(`${URL_SESSOES}?usuarioId=${usuario.id}`);
@@ -37,7 +36,6 @@ async function carregarDadosPainel() {
     document.getElementById('sessoesCount').textContent = sessoesHoje.length;
     document.getElementById('excessosCount').textContent = totalExcessos;
 
-    // --- Tarefas do usuário logado ---
     let tarefas = [];
     try {
         const res2 = await fetch(`${URL_TAREFAS}?usuarioId=${usuario.id}`);

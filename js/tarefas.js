@@ -18,7 +18,6 @@ async function buscarTarefas() {
     if (!usuario) return;
 
     try {
-        // Busca apenas as tarefas do usuário logado
         const resposta = await fetch(`${URL_TAREFAS}?usuarioId=${usuario.id}`);
         const tarefas = await resposta.json();
 
@@ -67,7 +66,6 @@ async function adicionarTarefa(event) {
     const titulo = inputTarefas.value.trim();
     if (!titulo) return;
 
-    // Salva com o usuarioId e a data de criação (usada nos Relatórios)
     const hoje = new Date().toISOString().split('T')[0];
     try {
         await fetch(URL_TAREFAS, {
