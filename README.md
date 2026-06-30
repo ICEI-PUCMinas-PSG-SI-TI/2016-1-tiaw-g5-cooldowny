@@ -123,6 +123,9 @@ O projeto deve ser fácil de usar.
 ![WireframeFluxoUsuário2](docs/images/wireframeConexoesGrupo5Parte2.png)
 ![WireframeFluxoUsuário3](docs/images/wireframeConexoesGrupo5Parte3.png)
 
+## Protótipo Interativo
+[Protótipo](https://www.figma.com/proto/46cXbveozkBYwZAn7hGne6/Wireframe-grupo-5?node-id=2-2&t=7c2uvqAT8czqkTfn-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1)
+
 ## Ferramentas Utilizadas
 Visual Studio Code
 
@@ -145,6 +148,32 @@ Pesquisa: Jhuan Neto Santos Pires
 
 ## Solução Implementada
 Funcionalidades:
+1- Título: Painel do dia
+
+Descrição: Página que contém informações, como por exemplo, tempo de jogo e tarefas concluídas do dia atual.
+
+Estrutura de dados:
+
+2- Título: Tarefas
+
+Descrição: É uma página com uma to-do-list para o usuário conseguir salvar tarefas, focar e gerenciar o que vai fazer durante o dia.
+
+Estrutura de dados:
+
+3- Título: Cronômetro
+
+Descrição: Página que contém um cronômetro para gerenciar o tempo nos jogos.
+
+Estrutura de dados:
+
+4- Título: Relatórios
+
+Descrição: Página que contém informações igual ao painel do dia, porém com informações semanais e não diária.
+
+Estrutura de dados:
+
+Módulos e APIS:
+HTML, CSS, JS, JSONServer, Fetch, Lucide e LocalStorage
 
 ## Referências Bibliográficas
 Referências utilizadas para o trabalho:
