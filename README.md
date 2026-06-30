@@ -66,20 +66,20 @@ Dessa forma, para resolver esse problema dos vícios em jogos online, o objetivo
 O público-alvo do site são as pessoas que já não tem controle e estão viciadas nos jogos online, jovens que perdem sua juventude e passam a vida em frente às telas prejudicando seu desenvolvimento como pessoa ou até pessoas mais velhas com sites de apostas, que acabam apostando sem parar e compulsivamente, podendo até sofre de vários prejuízos para si mesmo.
 
 ## Matriz
-![Matriz](docs/images/Matriz alinhamento grupo 5.pdf)
+![Matriz](docs/images/matrizAlinhamentoGrupo5.png)
 
 ## Mapa de Stakeholder
-![MapaStakeholder](docs/images/StakeHolder (1).pdf)
+![MapaStakeholder](docs/images/mapaStakeHolder.png)
 
 ## Personas
 Persona 1:
-![Persona1](docs/images/persona_lucas_rocha_formatado.pdf(3)(1).pdf)
+![Persona1](docs/images/Persona01.png)
 >
 Persona 2:
-![Persona2](docs/images/persona111(2).pdf.pdf)
+![Persona2](docs/images/Persona02.png)
 >
 Persona 3:
-![Persona3](docs/images/persona222(1).pdf)
+![Persona3](docs/images/Persona03.png)
 
 ## Histórias de Usuários
 História 1 - Eu como: Jogador de LOL Preciso de: Diminuir o tempo que fico jogando Para/Porque: Quero investir meu tempo em outras coisas
@@ -95,20 +95,22 @@ História 5 - Eu como: Estudante que precisa melhorar a produtividade. Preciso d
 História 6 - Eu como: Jogador competitivo que quer melhorar meu desempenho. Preciso de: Receber um relatório com o tempo total jogado e pausas feitas durante o dia. Para/Porque: Quero analisar minha rotina e ajustar meus horários para jogar com mais qualidade e menos cansaço mental.
 
 ## Proposta de Valor
-![PropostaValor1](docs/images/MapaDaPropostaDeValorLadoEsquerdoPersona01.pdf)
+![PropostaValor1](docs/images/MapaDaPropostaDeValorLadoEsquerdoPersona01.png)
 
-![PropostaValor2](docs/images/MapaDaPropostaDeValorLadoEsquerdoPersona02.pdf)
+![PropostaValor2](docs/images/MapaDaPropostaDeValorLadoEsquerdoPersona02.png)
 
-![PropostaValor3](docs/images/MapaDaPropostaDeValorLadoEsquerdoPersona03.pdf)
+![PropostaValor3](docs/images/MapaDaPropostaDeValorLadoEsquerdoPersona03.png)
 
-![PropostaValorLadoDireito1](docs/images/Empatia 06 - Análise - Mapa da Proposta de Valor - Persona01 (1).pdf)
+![PropostaValorLadoDireito1](docs/images/propostaDeValorLadoDireitoPersona01.png)
 
-![PropostaValorLadoDireito2](docs/images/Empatia 06 - Análise - Mapa da Proposta de Valor - Persona02 (1).pdf)
+![PropostaValorLadoDireito2](docs/images/propostaDeValorLadoDireitoPersona02.png)
 
-![PropostaValorLadoDireito3](docs/images/Empatia 06 - Análise - Mapa da Proposta de Valor - Persona03 (1).pdf)
+![PropostaValorLadoDireito3](docs/images/propostaDeValorLadoDireitoPersona03.png)
 
 ## Wireframe com Fluxo do Usuário
-![WireframeFluxoUsuário](docs/images/WIREFRAME CONEXÕES - GRUPO 5.pdf)
+![WireframeFluxoUsuário](docs/images/wireframeConexoesGrupo5.png)
+![WireframeFluxoUsuário2](docs/images/wireframeConexoesGrupo5Parte2.png)
+![WireframeFluxoUsuário3](docs/images/wireframeConexoesGrupo5Parte3.png)
 
 ## Ferramentas Utilizadas
 Visual Studio Code
@@ -120,7 +122,7 @@ Discord
 Github
 
 ## Organização da equipe e divisão de papéis
-Desenvolvimento: Igor Leal Soares
+Desenvolvimento e Documentação: Igor Leal Soares
 
 Desenvolvimento: Rafael Large Batista
 
