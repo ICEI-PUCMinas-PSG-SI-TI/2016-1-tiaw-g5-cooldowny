@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relatórios - CoolDowny</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+    <link rel="stylesheet" href="css/relatorios.css">
+</head>
+<body class="text-gray-300 flex min-h-screen">
+
+    <aside class="w-64 bg-[#0A0807] border-r border-zinc-800 flex flex-col justify-between p-6 shrink-0 min-h-screen">
+        <div>
+            <div class="flex items-center gap-2 mb-10">
+                <img src="image.png" alt="Logo" class="w-15 h-12">
+                <div>
+                    <h1 class="text-orange-400 font-bold text-sm leading-tight">CoolDowny</h1>
+                    <p class="text-[10px] text-zinc-500">Equilíbrio Digital</p>
+                </div>
+            </div>
+
+            <nav class="space-y-4">
+                <a href="inicio.html" class="flex items-center gap-3 hover:text-orange-400 transition"><i data-lucide="home" class="w-5 h-5 text-zinc-400"></i> Início</a>
+                <a href="painel.html" class="flex items-center gap-3 hover:text-orange-400 transition"><i data-lucide="layout-dashboard" class="w-5 h-5 text-zinc-400"></i> Painel</a>
+                <a href="cronometro.html" class="flex items-center gap-3 hover:text-orange-400 transition"><i data-lucide="timer" class="w-5 h-5 text-zinc-400"></i> Cronômetro</a>
+                <a href="tarefas.html" class="flex items-center gap-3 hover:text-orange-400 transition"><i data-lucide="list-todo" class="w-5 h-5 text-zinc-400"></i> Tarefas</a>
+                <a href="relatorios.html" class="flex items-center gap-3 text-white font-medium text-orange-400 transition"><i data-lucide="bar-chart-3" class="w-5 h-5 text-orange-400"></i> Relatórios</a>
+            </nav>
+        </div>
+
+        <div class="border-t border-zinc-800 pt-4">
+           <a id="loginLink" href="login.html" class="flex items-center gap-3 font-semibold text-white hover:text-orange-400 transition">
+                <i data-lucide="user" class="w-6 h-6 p-1 bg-zinc-800 rounded-full"></i> Login
+            </a>
+        </div>
+    </aside>
+
+    <main class="flex-1 p-8 overflow-y-auto">
+        <div class="max-w-6xl mx-auto">
+
+            <div class="mb-8">
+                <h1 class="text-4xl font-bold text-white mb-2" style="font-family: Georgia, 'Times New Roman', serif;">Relatórios</h1>
+                <p class="text-zinc-400">Entenda seus hábitos e evolua</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+
+                <div class="bg-[#1A1615] border border-zinc-800 rounded-2xl p-6 hover:border-orange-400/50 transition">
+                    <div class="flex items-start justify-between mb-4">
+                        <div>
+                            <p class="text-zinc-500 text-sm mb-2">Total Jogado</p>
+                            <h3 class="text-3xl font-bold text-white" id="totalJogado">0h</h3>
+                        </div>
+                        <div class="w-10 h-10 bg-blue-500/10 rounded-full flex items-center justify-center">
+                            <i data-lucide="clock" class="w-5 h-5 text-blue-400"></i>
+                        </div>
+                    </div>
+                    <p class="text-zinc-500 text-xs">Todas as sessões</p>
+                </div>
+
+                <div class="bg-[#1A1615] border border-zinc-800 rounded-2xl p-6 hover:border-orange-400/50 transition">
+                    <div class="flex items-start justify-between mb-4">
+                        <div>
+                            <p class="text-zinc-500 text-sm mb-2">Média Diária</p>
+                            <h3 class="text-3xl font-bold text-white" id="mediaDiaria">0min</h3>
+                        </div>
+                        <div class="w-10 h-10 bg-purple-500/10 rounded-full flex items-center justify-center">
+                            <i data-lucide="trending-up" class="w-5 h-5 text-purple-400"></i>
+                        </div>
+                    </div>
+                    <p class="text-zinc-500 text-xs">Últimos 7 dias</p>
+                </div>
+
+                <div class="bg-[#1A1615] border border-zinc-800 rounded-2xl p-6 hover:border-orange-400/50 transition">
+                    <div class="flex items-start justify-between mb-4">
+                        <div>
+                            <p class="text-zinc-500 text-sm mb-2">Tarefas Feitas</p>
+                            <h3 class="text-3xl font-bold text-white" id="tarefasFeitas">0</h3>
+                        </div>
+                        <div class="w-10 h-10 bg-violet-500/10 rounded-full flex items-center justify-center">
+                            <i data-lucide="message-square" class="w-5 h-5 text-violet-400"></i>
+                        </div>
+                    </div>
+                    <p class="text-zinc-500 text-xs">Total Geral</p>
+                </div>
+
+                <div class="bg-[#1A1615] border border-zinc-800 rounded-2xl p-6 hover:border-orange-400/50 transition">
+                    <div class="flex items-start justify-between mb-4">
+                        <div>
+                            <p class="text-zinc-500 text-sm mb-2">Excessos</p>
+                            <h3 class="text-3xl font-bold text-white" id="excessosTotal">0</h3>
+                        </div>
+                        <div class="w-10 h-10 bg-red-500/10 rounded-full flex items-center justify-center">
+                            <i data-lucide="trending-down" class="w-5 h-5 text-red-400"></i>
+                        </div>
+                    </div>
+                    <p class="text-zinc-500 text-xs">Limites ultrapassados</p>
+                </div>
+
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-8">
+
+                <div class="bg-[#1A1615] border border-zinc-800 rounded-2xl p-6">
+                    <h2 class="text-lg font-bold text-white mb-4">Tempo de Jogo - Semana</h2>
+                    <div class="h-64">
+                        <canvas id="graficoTempoJogo"></canvas>
+                    </div>
+                </div>
+
+                <div class="bg-[#1A1615] border border-zinc-800 rounded-2xl p-6">
+                    <h2 class="text-lg font-bold text-white mb-4">Jogos Mais Jogados</h2>
+                    <div id="jogosMaisJogados" class="h-64 flex flex-col items-center justify-center text-center">
+                        <p class="text-zinc-500">Sem dados ainda</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="bg-[#1A1615] border border-zinc-800 rounded-2xl p-6">
+                <h2 class="text-lg font-bold text-white mb-4">Tarefas Concluídas - Semana</h2>
+                <div class="h-64">
+                    <canvas id="graficoTarefas"></canvas>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="js/inicial.js"></script>
+    <script src="js/relatorios.js"></script>
+
+</body>
+</html>

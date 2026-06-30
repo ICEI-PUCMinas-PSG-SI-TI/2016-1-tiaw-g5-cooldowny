@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background-color: #0f0d0b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card {
+    background-color: #181512;
+    padding: 45px 40px;
+    border-radius: 15px;
+    width: 400px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+}
+
+h1 {
+    color: white;
+    font-family: Georgia, serif;
+    font-size: 2.6rem;
+    margin-bottom: 30px;
+    font-weight: normal;
+}
+
+.input-box {
+    background-color: #211d19;
+    border: 1px solid #332d26;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+    padding: 0 18px;
+}
+
+.input-box i {
+    color: #cca010;
+    font-size: 1.1rem;
+    padding-right: 15px;
+    border-right: 1px solid #332d26;
+}
+
+input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #e0e0e0;
+    padding: 15px;
+    width: 100%;
+    font-size: 0.95rem;
+}
+
+input::placeholder {
+    color: #5a5247;
+}
+
+.btn {
+    background-color: #cca010;
+    color: #000;
+    border: none;
+    width: 100%;
+    padding: 14px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1.05rem;
+    cursor: pointer;
+    margin: 15px 0 10px 0;
+    transition: 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn:hover {
+    background-color: #e6b312;
+}
+
+.terms {
+    color: #5a5247;
+    font-size: 0.75rem;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.terms strong {
+    color: #a19584;
+}
+
+.forgot {
+    color: #a19584;
+    text-decoration: none;
+    font-size: 0.85rem;
+    display: block;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.link {
+    color: #5a5247;
+    text-align: center;
+    display: block;
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+
+.link a {
+    color: #cca010;
+    text-decoration: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus {
+    -webkit-text-fill-color: #e0e0e0 !important;
+    -webkit-box-shadow: 0 0 0px 1000px #211d19 inset !important;
+    transition: background-color 5000s ease-in-out 0s;
+}
