@@ -1,0 +1,81 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "nome": "Admin",
+      "email": "admin@email.com",
+      "senha": "123"
+    },
+    {
+      "nome": "Arthur Silva",
+      "email": "22402314@aluno.cotemig.com.br",
+      "senha": "23042007",
+      "id": "2Vc0g4N_GV4"
+    },
+    {
+      "nome": "Pedro",
+      "email": "arthursenrar@gmail.com",
+      "senha": "123123123",
+      "id": "VLHxeqy5LeU"
+    },
+    {
+      "nome": "Harley",
+      "email": "harleysenra@gmail.com",
+      "senha": "123321",
+      "id": "2B33hmVGq10"
+    },
+    {
+      "nome": "Pedro Arthur Silva Senra ",
+      "email": "passenra@sga.pucminas.br",
+      "senha": "12304123",
+      "id": "rNNx-NvyMo8"
+    },
+    {
+      "nome": "paulin",
+      "email": "paulin@gmail.com",
+      "senha": "forelialover",
+      "id": "FD8GF4aLzNM"
+    },
+    {
+      "nome": "Teste",
+      "email": "123321@gmail.com",
+      "senha": "12332104",
+      "id": "N_P9DwzTxK0"
+    }
+  ],
+  "cronometro": [
+    {
+      "id": "1",
+      "jogo": "Valorant",
+      "humor": "Ansioso",
+      "tempo": 24,
+      "tempoExcedido": 2
+    },
+    {
+      "jogo": "Minecraft",
+      "humor": "Feliz",
+      "tempo": 3,
+      "tempoExcedido": 0,
+      "data": "2026-06-29",
+      "id": "hp2_qQIIILY"
+    },
+    {
+      "jogo": "Undertale",
+      "humor": "Estressado",
+      "tempo": 5,
+      "tempoExcedido": 0,
+      "data": "2026-06-29",
+      "usuarioId": "VLHxeqy5LeU",
+      "id": "jXcgM7XcFhU"
+    }
+  ],
+  "tarefas": [
+    {
+      "titulo": "sexo 2",
+      "concluida": true,
+      "usuarioId": "VLHxeqy5LeU",
+      "id": "6LGwMdHad4o"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

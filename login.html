@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="card">
+        <h1>Login</h1>
+        <form id="formLogin">
+            <div class="input-box"><i class="fa-solid fa-user-gear"></i><input type="text" id="loginUser" placeholder="Usuário ou E-mail" required autocomplete="off"></div>
+            <div class="input-box"><i class="fa-solid fa-lock"></i><input type="password" id="loginSenha" placeholder="Senha" required></div>
+            
+            <button type="submit" class="btn"><i class="fa-solid fa-key"></i> Entrar</button>
+            
+            <a href="#" class="forgot">Esqueci minha senha</a>
+            <p class="link">Não tem uma conta? <a href="cadastro.html">Cadastre-se</a></p>
+        </form>
+    </div>
+
+    <script>
+        const form = document.getElementById('formLogin');
+
+        form.onsubmit = function(event) {
+            event.preventDefault();
+
+            const usuarioDigitado = document.getElementById('loginUser').value;
+            const senhaDigitada = document.getElementById('loginSenha').value;
+
+            fetch('http://localhost:3000/usuarios')
+            .then(resposta => resposta.json())
+            .then(listaUsuarios => {
+                const usuarioEncontrado = listaUsuarios.find(user => 
+                    (user.email === usuarioDigitado || user.nome === usuarioDigitado) && user.senha === senhaDigitada
+                );
+
+                if (usuarioEncontrado) {
+                    const usuarioLogado = { nome: usuarioEncontrado.nome, email: usuarioEncontrado.email, id: usuarioEncontrado.id };
+                    localStorage.setItem('usuarioLogado', JSON.stringify(usuarioLogado));
+                    alert("Login aceito! Bem-vindo, " + usuarioEncontrado.nome);
+                    window.location.href = "inicio.html";
+                } else {
+                    alert("Usuário ou senha incorretos.");
+                }
+            })
+            .catch(erro => {
+                alert("Erro ao conectar com o servidor. Verifique se o json-server está rodando (npm run server).");
+                console.error(erro);
+            });
+        };
+    </script>
+</body>
+</html>

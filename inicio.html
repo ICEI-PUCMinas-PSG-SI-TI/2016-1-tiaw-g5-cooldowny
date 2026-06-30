@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoolDowny - Equilíbrio Digital</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #120F0E;
+        }
+    </style>
+</head>
+<body class="text-gray-300 flex min-h-screen">
+
+    <aside class="w-64 bg-[#0A0807] border-r border-zinc-800 flex flex-col justify-between p-6 shrink-0 min-h-screen">
+        <div>
+            <div class="flex items-center gap-2 mb-10">
+                <img src="image.png" alt="Logo" class="w-15 h-12">
+                <div>
+                    <h1 class="text-orange-400 font-bold text-sm leading-tight">CoolDowny</h1>
+                    <p class="text-[10px] text-zinc-500">Equilíbrio Digital</p>
+                </div>
+            </div>
+
+            <nav class="space-y-4">
+                <a href="inicio.html" class="flex items-center gap-3 text-white font-medium text-orange-400 transition"><i data-lucide="home" class="w-5 h-5 text-orange-400"></i> Início</a>
+                <a href="painel.html" class="flex items-center gap-3 hover:text-orange-400 transition"><i data-lucide="layout-dashboard" class="w-5 h-5 text-zinc-400"></i> Painel</a>
+                <a href="cronometro.html" class="flex items-center gap-3 hover:text-orange-400 transition"><i data-lucide="timer" class="w-5 h-5 text-zinc-400"></i> Cronômetro</a>
+                <a href="tarefas.html" class="flex items-center gap-3 hover:text-orange-400 transition"><i data-lucide="list-todo" class="w-5 h-5 text-zinc-400"></i> Tarefas</a>
+                <a href="relatorios.html" class="flex items-center gap-3 hover:text-orange-400 transition"><i data-lucide="bar-chart-3" class="w-5 h-5 text-zinc-400"></i> Relatórios</a>
+            </nav>
+        </div>
+
+        <div class="border-t border-zinc-800 pt-4">
+           <a id="loginLink" href="login.html" class="flex items-center gap-3 font-semibold text-white hover:text-orange-400 transition">
+                <i data-lucide="user" class="w-6 h-6 p-1 bg-zinc-800 rounded-full"></i> Login
+            </a>
+        </div>
+    </aside>
+
+    <main class="flex-1 p-8 max-w-5xl mx-auto overflow-y-auto">
+        
+        <section class="bg-[#231A16] rounded-3xl p-10 mb-10 relative overflow-hidden border border-zinc-800/50">
+            <div class="inline-flex items-center gap-2 bg-amber-500/10 border border-amber-500/20 text-amber-500 text-xs px-3 py-1 rounded-full mb-6">
+                <span class="w-2 h-2 rounded-full bg-amber-500 animate-pulse"></span> Equilíbrio Digital
+            </div>
+            <h2 class="text-4xl font-serif text-white font-semibold mb-4 leading-tight">
+                Jogue com consciência, <span class="text-amber-500">viva com equilíbrio</span>
+            </h2>
+            <p class="text-zinc-400 max-w-xl mb-8 leading-relaxed">
+                O CoolDowny ajuda você a monitorar seu tempo de jogo, organizar sua rotina e transformar o vício em diversão saudável.
+            </p>
+            <div class="flex gap-4">
+                <button class="bg-amber-500 text-black font-semibold px-6 py-3 rounded-full flex items-center gap-2 hover:bg-amber-400 transition cursor-pointer">
+                    <a href="painel.html">Começar agora →</a>
+                </button>
+                <button class="border border-zinc-700 text-white font-medium px-6 py-3 rounded-full hover:bg-zinc-800 transition cursor-pointer">
+                    Saiba Mais
+                </button>
+            </div>
+        </section>
+
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-16 text-xs text-zinc-400">
+            <div class="bg-zinc-900/40 border border-zinc-800 p-3 rounded-xl flex items-center gap-2">
+                <i data-lucide="shield" class="w-4 h-4 text-amber-500"></i> Controle sobre o próprio tempo
+            </div>
+            <div class="bg-zinc-900/40 border border-zinc-800 p-3 rounded-xl flex items-center gap-2">
+                <i data-lucide="target" class="w-4 h-4 text-amber-500"></i> Mais foco e produtividade
+            </div>
+            <div class="bg-zinc-900/40 border border-zinc-800 p-3 rounded-xl flex items-center gap-2">
+                <i data-lucide="heart" class="w-4 h-4 text-amber-500"></i> Melhora no bem-estar mental
+            </div>
+            <div class="bg-zinc-900/40 border border-zinc-800 p-3 rounded-xl flex items-center gap-2">
+                <i data-lucide="brain" class="w-4 h-4 text-amber-500"></i> Consciência sobre hábitos
+            </div>
+        </div>
+
+        <section class="text-center mb-16">
+            <h3 class="text-3xl font-serif text-white font-medium mb-3">Ferramentas para seu equilíbrio</h3>
+            <p class="text-zinc-400 max-w-md mx-auto mb-10 text-sm">Tudo que você precisa para retomar o controle do seu tempo e viver melhor.</p>
+
+            <div class="relative max-w-2xl mx-auto px-12">
+                <div class="overflow-hidden relative h-[320px] rounded-2xl">
+                    
+                    <div class="carousel-item absolute inset-0 w-full h-full bg-[#1A1615] border border-zinc-800 p-10 rounded-2xl flex flex-col justify-between text-left transition-all duration-500 opacity-100 scale-100 z-10">
+                        <div>
+                            <div class="w-12 h-12 bg-blue-500/10 rounded-xl flex items-center justify-center mb-6">
+                                <i data-lucide="clock" class="w-6 h-6 text-blue-400"></i>
+                            </div>
+                            <h4 class="text-2xl font-semibold text-white mb-3">Controle do Tempo</h4>
+                            <p class="text-zinc-400 text-base leading-relaxed">Monitore e reduza o tempo gasto em jogos com nosso cronômetro inteligente integrado diretamente ao seu fluxo de trabalho.</p>
+                        </div>
+                        <a href="#" class="text-amber-500 font-medium flex items-center gap-2 hover:underline">Explorar &rarr;</a>
+                    </div>
+
+                    <div class="carousel-item absolute inset-0 w-full h-full bg-[#1A1615] border border-zinc-800 p-10 rounded-2xl flex flex-col justify-between text-left transition-all duration-500 opacity-0 scale-95 z-0">
+                        <div>
+                            <div class="w-12 h-12 bg-purple-500/10 rounded-xl flex items-center justify-center mb-6">
+                                <i data-lucide="bar-chart-2" class="w-6 h-6 text-purple-400"></i>
+                            </div>
+                            <h4 class="text-2xl font-semibold text-white mb-3">Relatórios de Hábitos</h4>
+                            <p class="text-zinc-400 text-base leading-relaxed">Visualize seus padrões de comportamento de forma analítica e acompanhe sua evolução semanal através de gráficos interativos.</p>
+                        </div>
+                        <a href="#" class="text-amber-500 font-medium flex items-center gap-2 hover:underline">Explorar &rarr;</a>
+                    </div>
+
+                    <div class="carousel-item absolute inset-0 w-full h-full bg-[#1A1615] border border-zinc-800 p-10 rounded-2xl flex flex-col justify-between text-left transition-all duration-500 opacity-0 scale-95 z-0">
+                        <div>
+                            <div class="w-12 h-12 bg-emerald-500/10 rounded-xl flex items-center justify-center mb-6">
+                                <i data-lucide="sliders" class="w-6 h-6 text-emerald-400"></i>
+                            </div>
+                            <h4 class="text-2xl font-semibold text-white mb-3">Gestão de Tarefas</h4>
+                            <p class="text-zinc-400 text-base leading-relaxed">Organize suas responsabilidades diárias antes de partir para o lazer, definindo prioridades claras e metas alcançáveis.</p>
+                        </div>
+                        <a href="#" class="text-amber-500 font-medium flex items-center gap-2 hover:underline">Explorar &rarr;</a>
+                    </div>
+
+                </div>
+
+                <button id="prevBtn" class="absolute left-0 top-1/2 -translate-y-1/2 bg-zinc-900 border border-zinc-800 p-3 rounded-full hover:bg-zinc-800 text-white transition cursor-pointer">
+                    <i data-lucide="chevron-left" class="w-5 h-5"></i>
+                </button>
+                <button id="nextBtn" class="absolute right-0 top-1/2 -translate-y-1/2 bg-zinc-900 border border-zinc-800 p-3 rounded-full hover:bg-zinc-800 text-white transition cursor-pointer">
+                    <i data-lucide="chevron-right" class="w-5 h-5"></i>
+                </button>
+
+                <div class="flex justify-center gap-2 mt-6">
+                    <span class="dot w-2 h-2 rounded-full bg-amber-500 transition-all duration-300"></span>
+                    <span class="dot w-2 h-2 rounded-full bg-zinc-700 transition-all duration-300"></span>
+                    <span class="dot w-2 h-2 rounded-full bg-zinc-700 transition-all duration-300"></span>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-gradient-to-r from-orange-500 to-amber-500 rounded-3xl p-10 text-center text-black">
+            <h3 class="text-2xl md:text-3xl font-bold mb-2">Pronto para recuperar o controle?</h3>
+            <p class="text-black/80 text-sm mb-6 max-w-md mx-auto">Comece hoje mesmo a transformar sua relação com os jogos.</p>
+            <a href="login.html" class="bg-[#120F0E] text-white font-medium px-6 py-3 rounded-xl inline-flex items-center gap-2 hover:bg-zinc-900 transition cursor-pointer mx-auto">
+                Ir para Login &rarr;
+            </a>
+        </section>
+
+    </main>
+
+    <script src="js/inicial.js"></script>
+</body>
+</html>
