@@ -109,13 +109,13 @@ História 6 - Eu como: Jogador competitivo que quer melhorar meu desempenho. Pre
 
 ## Requisitos do Projeto
 Requisitos funcionais:
-O projeto deve ter uma to-do-list.
-O projeto deve ter um cronômetro.
-O projeto deve ter um painel do dia.
+O projeto deve ter uma to-do-list,
+O projeto deve ter um cronômetro,
+O projeto deve ter um painel do dia,
 O projeto deve ter uma página de relatórios.
 
 Requisitos não funcionais:
-O projeto não deve demorar para carregar as páginas.
+O projeto não deve demorar para carregar as páginas,
 O projeto deve ser fácil de usar.
 
 ## Wireframe com Fluxo do Usuário
