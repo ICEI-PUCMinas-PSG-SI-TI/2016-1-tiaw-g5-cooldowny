@@ -153,27 +153,105 @@ Funcionalidades:
 Descrição: Página que contém informações, como por exemplo, tempo de jogo e tarefas concluídas do dia atual.
 
 Estrutura de dados:
+{
+  "usuarioLogado": {
+    "id":
+    "nome": "Pedro",
+    "email": "pedro@gmail.com
+  },
+  "sessoesHoje": [
+    {
+      "id": "1",
+      "jogo": "Minecraft",
+      "humor": "Feliz",
+      "tempo": 10800,
+      "tempoExcedido": 0,
+      "data": "2026-06-30",
+      "usuarioId": ""
+    }
+  ],
+  "tarefas": [
+   {
+     "id": "10",
+     "titulo": "Estudar",
+     "concluida": false,
+     "usuarioId": "VLHxeqy5LeU",
+     "data": "2026-06-30"
+   }
+  ]
+}
+
+Intruções de acesso e uso: Clicar em "Painel" na barra lateral de navegação, lá vai estar todas suas informações do dia.
 
 2- Título: Tarefas
 
 Descrição: É uma página com uma to-do-list para o usuário conseguir salvar tarefas, focar e gerenciar o que vai fazer durante o dia.
 
 Estrutura de dados:
+{
+  "id": "10",
+  "titulo": "Estudar",
+  "concluida": false,
+  "usuarioId": "VLHxeqy5LeU",
+  "data": "2026-06-30"
+}
+
+Intruções de acesso e uso: Clicar em "Tarefas" na barra lateral de navegação, dentro da página você pode adicionar tarefas que você precisa realizar, e quando realizar pode marcar ela como concluída.
 
 3- Título: Cronômetro
 
 Descrição: Página que contém um cronômetro para gerenciar o tempo nos jogos.
 
 Estrutura de dados:
+{
+  "id": "2",
+  "jogo": "Minecraft",
+  "humor": "Feliz",
+  "tempo": 10800,
+  "tempoExcedido": 0,
+  "data": "2026-06-30",
+  "usuarioId": "VLHxeqy5LeU"
+}
+
+Intruções de acesso e uso: Clicar em "Cronômetro" na barra lateral de navegação, dentro da página você pode ligar o cronômetro, selecionar o jogo que você vai utilizar o cronômetro, limite de tempo do cronômetro e até seu humor.
 
 4- Título: Relatórios
 
 Descrição: Página que contém informações igual ao painel do dia, porém com informações semanais e não diária.
 
 Estrutura de dados:
+{
+  "usuarioLogado": {
+    "id":
+    "nome": "Pedro",
+    "email": "pedro@gmail.com
+  },
+  "sessoesHoje": [
+    {
+      "id": "1",
+      "jogo": "Minecraft",
+      "humor": "Feliz",
+      "tempo": 10800,
+      "tempoExcedido": 0,
+      "data": "2026-06-30",
+      "usuarioId": ""
+    }
+  ],
+  "tarefas": [
+   {
+     "id": "10",
+     "titulo": "Estudar",
+     "concluida": false,
+     "usuarioId": "VLHxeqy5LeU",
+     "data": "2026-06-30"
+   }
+  ]
+}
+
+Intruções de acesso e uso: Clicar em "Relatórios" na barra lateral de navegação, dentro da página você pode ver informações acumuladas de forma semanal, diferente do painel do dia.
 
 Módulos e APIS:
-HTML, CSS, JS, JSONServer, Fetch, Lucide e LocalStorage
+HTML, CSS, JS, JSONServer, Fetch, Lucide, LocalStorage, Tailwind CSS e Chart.js
 
 ## Referências Bibliográficas
 Referências utilizadas para o trabalho:
