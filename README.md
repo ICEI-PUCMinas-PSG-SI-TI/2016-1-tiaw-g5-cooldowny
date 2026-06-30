@@ -107,6 +107,17 @@ História 6 - Eu como: Jogador competitivo que quer melhorar meu desempenho. Pre
 
 ![PropostaValorLadoDireito3](docs/images/propostaDeValorLadoDireitoPersona03.png)
 
+## Requisitos do Projeto
+Requisitos funcionais:
+O projeto deve ter uma to-do-list.
+O projeto deve ter um cronômetro.
+O projeto deve ter um painel do dia.
+O projeto deve ter uma página de relatórios.
+
+Requisitos não funcionais:
+O projeto não deve demorar para carregar as páginas.
+O projeto deve ser fácil de usar.
+
 ## Wireframe com Fluxo do Usuário
 ![WireframeFluxoUsuário](docs/images/wireframeConexoesGrupo5.png)
 ![WireframeFluxoUsuário2](docs/images/wireframeConexoesGrupo5Parte2.png)
@@ -131,6 +142,9 @@ Design/UX: Bianca Garcia
 Design e Desenvolvimento: Pedro Arthur Silva Senra
 
 Pesquisa: Jhuan Neto Santos Pires
+
+## Solução Implementada
+Funcionalidades:
 
 ## Referências Bibliográficas
 Referências utilizadas para o trabalho:
