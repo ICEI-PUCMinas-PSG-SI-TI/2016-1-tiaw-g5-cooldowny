@@ -69,13 +69,6 @@
       "id": "jXcgM7XcFhU"
     }
   ],
-  "tarefas": [
-    {
-      "titulo": "sexo 2",
-      "concluida": true,
-      "usuarioId": "VLHxeqy5LeU",
-      "id": "6LGwMdHad4o"
-    }
-  ],
+  "tarefas": [],
   "$schema": "./node_modules/json-server/schema.json"
 }
